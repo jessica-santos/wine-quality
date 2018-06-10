@@ -2,7 +2,7 @@
 Modelagem de regressão com o objetivo de prever a qualidade do vinho baseando-se em características fisíco-quimicas e sensoriais.
 
 # Discussão da Resolução
-Como descrito em https://github.com/jessica-santos/wine-quality/wine-quality.ipnb, por serem valores discretos, e não contínuos, uma possível abordagem seria criar um modelo multiclasse. Porém, por não ter exemplos de todas as classes (0 a 10), esse modelo seria falho. Neste caso a melhor alternativa é fazer uma regressão.
+Como descrito em https://github.com/jessica-santos/wine-quality/blob/master/wine-quality.ipynb, por serem valores discretos, e não contínuos, uma possível abordagem seria criar um modelo multiclasse. Porém, por não ter exemplos de todas as classes (0 a 10), esse modelo seria falho. Neste caso a melhor alternativa é fazer uma regressão.
 
 Foram testados dois modelos muito utilizados para regressão, uma regressão linear clássica e uma Random Forest Regressor (RFR), que por ser um ensemble costuma apresentar ótimos resultados, além de não necessitar de muitos testes de parâmetros.
 
